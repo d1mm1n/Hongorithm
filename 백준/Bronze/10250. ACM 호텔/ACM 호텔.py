@@ -4,7 +4,7 @@ import math
 
 T= int(input())
 
-#num-int(num) 을 통해 num의 소수 부분을 얻기, 소수 부분이 0.5보다 크다면 반올림 
+#num-int(num) 을 통해 num의 소수 부분을 얻기, 소수 부분이 0.1보다 크다면 반올림 
 def custom_round(num):
     return math.ceil(num) if num - int(num) >= 0.1 else math.floor(num)
 
